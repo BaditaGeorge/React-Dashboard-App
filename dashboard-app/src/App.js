@@ -7,6 +7,7 @@ import {
   Link
 } from 'react-router-dom';
 import Register from './components/register/register';
+import Login from './components/login/login';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Switch>
           <Route path="/register">
             <Register></Register>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
           </Route>
           {/* <Route path="/users">
             <Users />

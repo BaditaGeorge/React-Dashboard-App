@@ -1,3 +1,61 @@
-textField{
-    display:block;
+.textField {
+  display: block;
+  margin-top: 15px;
+  height: 6vh;
+  width: 21vw;
+  border-radius: 30px;
+  margin-left: 2vw;
+//   background: white;
+  opacity: 20%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  border:1px solid black;
+//   color:white;
+}
+
+p {
+  padding-bottom: 20px;
+  font-size: 2.8vw;
+  color:white;
+}
+
+.regform {
+  text-align: center;
+  margin: auto;
+  width: 25vw;
+  @media (max-width: 600px) {
+    background-color: red;
+  }
+}
+
+body{
+    // background-color: red;
+    background-repeat: no-repeat;
+    height:100%;
+    background-attachment: fixed;
+    background-image:linear-gradient(#E68362,#3A332C);
+}
+
+.navBar{
+    background-color: #F96331;
+    height:40px;
+    width:100%;
+}
+
+span{
+    position: absolute;
+    margin-right:5px;
+    font-size: 20px;
+    color:white;
+    top:4px;
+}
+
+button{
+    margin-top:100px;
+    height:6vh;
+    width:21vw;
+    border-radius: 30px;
+    border:2px solid #DAC9C5;
+    color:#FFF9EE;
+    background: rgba(0,0,0,0.1); 
 }

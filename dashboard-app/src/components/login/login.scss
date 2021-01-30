@@ -1,0 +1,65 @@
+.textField {
+  display: block;
+  margin-top: 15px;
+  height: 6vh;
+  width: 21vw;
+  border-radius: 30px;
+  margin-left: 2vw;
+  //   background: white;
+  color: white;
+  font-size:19px;
+  background: rgba(204, 204, 204, 0.5);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid black;
+  outline:none;
+  //   color:white;
+}
+
+p {
+  padding-bottom: 20px;
+  font-size: 2.8vw;
+  color: white;
+}
+
+.regform {
+  text-align: center;
+  margin: auto;
+  width: 25vw;
+  @media (max-width: 600px) {
+    background-color: red;
+  }
+}
+
+body {
+  // background-color: red;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(#e68362, #3a332c);
+}
+
+.navBar {
+  background-color: #f96331;
+  height: 40px;
+  width: 100%;
+}
+
+span {
+  position: absolute;
+  margin-right: 5px;
+  font-size: 20px;
+  color: white;
+  top: 4px;
+}
+
+button {
+  margin-top: 100px;
+  height: 6vh;
+  width: 21vw;
+  border-radius: 30px;
+  border: 2px solid #dac9c5;
+  color: #fff9ee;
+  background: rgba(0, 0, 0, 0.1);
+  outline:none;
+}
