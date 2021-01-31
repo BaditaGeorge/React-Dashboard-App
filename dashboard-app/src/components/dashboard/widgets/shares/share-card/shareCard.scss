@@ -1,0 +1,22 @@
+.card {
+  width: 90%;
+  border-bottom: 1px solid black;
+  background-color: white;
+  height: 25%;
+  margin-left: 10px;
+  overflow: hidden;
+  .cardtog {
+    .sym {
+      font-size: 25px;
+    }
+    .prc {
+      margin-top: -25px;
+      color: gray;
+    }
+  }
+  .dir {
+    margin-top: -31%;
+    font-size: 30px;
+    float: right;
+  }
+}

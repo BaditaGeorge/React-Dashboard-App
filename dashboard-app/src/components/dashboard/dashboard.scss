@@ -1,0 +1,34 @@
+.navBar {
+  background-color: #f96331;
+  height: 40px;
+  width: 100%;
+}
+
+.holder {
+  height: 95vh;
+  background-color: red;
+}
+
+.upperHalf {
+  height: 47.5vh;
+  .left {
+    background-color: yellow;
+    width: 50%;
+    height: 47.5vh;
+    float: left;
+  }
+  .right {
+    background-color: #FFB236;
+    width: 50%;
+    height: 47.5vh;
+    float: right;
+    // .weatherDeg{
+    //     text-align: center;
+    // }
+  }
+}
+
+.lowerHalf {
+  height: 47.5vh;
+  background-color: blue;
+}

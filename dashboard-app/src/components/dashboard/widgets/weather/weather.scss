@@ -1,0 +1,86 @@
+.weatherUp {
+  width: 100%;
+}
+
+.weatherUpRight {
+  text-align: center;
+  padding-top: 20px;
+  width: 50%;
+  float: right;
+  .weatherDeg{
+      margin-right:20px;
+      float:right;
+      p{
+          margin-top:0px;
+          font-size: 120px;
+          user-select: none;
+          color:#ffffff;
+      }
+  }
+}
+
+.weatherIcon{
+    margin-top:30px;
+    margin-left:50px;
+}
+
+.weatherUpLeft {
+  width: 50%;
+  float: left;
+}
+
+.weatherNav {
+    margin-right: 20px;
+    float:right;
+}
+
+.navPar {
+  display: inline;
+  margin: 10px;
+  font-size:20px;
+  color: #ffffff;
+  &:hover {
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+    user-select: none;
+  }
+  &:active {
+    border-bottom: 2px solid #ffffff;
+  }
+}
+
+.weatherHourly{
+  display:flex;
+  flex-wrap: nowrap;
+  // position:absolute;
+  bottom:10px;
+  margin-top:30%;
+  margin-left:5%;
+  // flex-direction: column;
+}
+
+.weatherCard{
+  margin:15px;
+  color:white;
+  margin-left: 10%;
+}
+
+.weatherDown{
+  position: relative;
+}
+
+.weatherCardDeg{
+  font-size:30px;
+}
+
+.weatherCardHour{
+  margin-top:-30px;
+  font-size:15px;
+}
+
+
+// .navPar:hover {
+//   border-bottom: 2px solid white;
+//   cursor: pointer;
+//   user-select: none;
+// }

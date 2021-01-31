@@ -10,7 +10,7 @@ function Login() {
       </div>
       <div className="loginMain">
         <form className="regform">
-          <p>LOGIN</p>
+          <p className="formTitle">LOGIN</p>
           <input className="textField" type="text" placeholder="Email"></input>
           <input
             className="textField"

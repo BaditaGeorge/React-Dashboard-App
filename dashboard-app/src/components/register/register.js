@@ -12,7 +12,7 @@ function Register() {
     </div>
     <div className="loginMain">
       <form className="regform">
-          <p>CREATE ACCOUNT</p>
+          <p className="formTitle">CREATE ACCOUNT</p>
           <input className="textField" type='text' placeholder='Name'></input>
           <input className="textField" type='text' placeholder='Email'></input>
           <input className="textField" type='text' placeholder='Password'></input>

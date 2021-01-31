@@ -1,0 +1,18 @@
+.sharelist{
+    float:left;
+    width:14.93%;
+    background-color: #ffffff;
+    height:100%;
+    overflow: hidden;
+    user-select: none;
+    border-right: 1px solid black;
+}
+
+.chart{
+    float:right;
+    width:85%;
+    height:100%;
+    background-color: white;
+    user-select: none;
+    overflow:hidden;
+}

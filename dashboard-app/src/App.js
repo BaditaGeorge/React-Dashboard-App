@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import Register from './components/register/register';
 import Login from './components/login/login';
+import Dashboard from './components/dashboard/dashboard';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/">
+            <Dashboard></Dashboard>
           </Route>
           {/* <Route path="/users">
             <Users />
