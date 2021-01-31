@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./weather.scss";
 import classNames from "classnames";
 import { WiDayCloudy } from "weather-icons-react";
 
+function Forecast() {
+  fetch(
+    "http://api.openweathermap.org/data/2.5/forecast?q=Iasi&units=metric&appid=c335166f33673c4d89e84fdbde0f077c"
+  )
+    .then((resp) => resp.json())
+    .then((data) => {
+      console.log(
+        data.list.map((x) => {
+          return {
+            date: x.dt_txt,
+            min: x.main.temp_min,
+            max: x.main.temp_max,
+            main: x.weather[0].main,
+          };
+        })
+      );
+    });
+}
+
 function Weather() {
+  useEffect(()=>{
+    Forecast()
+  },[]);
   return (
     <>
       <div className="weatherUp">
