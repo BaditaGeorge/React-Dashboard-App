@@ -2,6 +2,7 @@ import React from "react";
 import "./dashboard.scss";
 import Weather from "./widgets/weather/weather";
 import Shares from "./widgets/shares/shares";
+import News from './widgets/news/news';
 
 function Dashboard() {
   return (
@@ -12,7 +13,9 @@ function Dashboard() {
       </div>
       <div className="holder">
         <div className="upperHalf">
-          <div className="left"></div>
+          <div className="left">
+            <News></News>
+          </div>
           <div className="right">
             <Weather></Weather>
           </div>

@@ -55,7 +55,7 @@
   // position:absolute;
   bottom:10px;
   margin-top:30%;
-  margin-left:5%;
+  margin-left:4.5%;
   // flex-direction: column;
 }
 
@@ -70,12 +70,17 @@
 }
 
 .weatherCardDeg{
-  font-size:30px;
+  font-size:22px;
 }
 
 .weatherCardHour{
-  margin-top:-30px;
-  font-size:15px;
+  margin-top:-25px;
+  font-size:12px;
+}
+
+.mainWeather{
+  color:white;
+  font-size:20px;
 }
 
 

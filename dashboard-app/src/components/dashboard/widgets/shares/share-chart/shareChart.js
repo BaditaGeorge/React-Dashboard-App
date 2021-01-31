@@ -1,7 +1,12 @@
 import React from "react";
 import { Chart } from "react-google-charts";
 
-function ShareChart() {
+function ShareChart(props) {
+  let mapData = [["x", props.symbol]];
+  for (let i = 0; i < props.data.length; i++) {
+    mapData.push([i, props.data[i]]);
+  }
+
   return (
     <>
       <div>
@@ -10,22 +15,13 @@ function ShareChart() {
           height={"400px"}
           chartType="LineChart"
           loader={<div>Loading Chart</div>}
-          data={[
-            ["x", "cats"],
-            [0, 0],
-            [1, 5],
-            [2, 15],
-            [3, 9],
-            [4, 10],
-            [5, 5],
-            [6, 3],
-            [7, 19]
-          ]}
+          data={mapData}
           options={{
+            pointSize:15,
             colors: ["#F4F4F4"],
             chartArea: {
               height: "85%",
-              width: "100%"
+              width: "100%",
             },
             legend: { position: "none" },
             hAxis: {
