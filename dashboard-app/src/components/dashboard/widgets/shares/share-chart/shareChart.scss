@@ -1,0 +1,107 @@
+.chartTitle{
+    position:absolute;
+    font-size:28px;
+    top:54%;
+    color:#B2B2B2;
+    left:18%;
+    z-index: 2;
+}
+
+.chartPrice{
+    position:absolute;
+    font-size:60px;
+    top:53%;
+    color:black;
+    left:18%;
+    z-index: 2;
+}
+
+.low{
+    position:absolute;
+    font-size:16px;
+    top:56%;
+    color:#B2B2B2;
+    left:31%;
+    z-index: 2;
+}
+
+.high{
+    position:absolute;
+    font-size:16px;
+    top:59%;
+    color:#B2B2B2;
+    left:31%;
+    z-index: 2;
+}
+
+.open{
+    position:absolute;
+    font-size:16px;
+    top:62%;
+    color:#B2B2B2;
+    left:31%;
+    z-index: 2;
+}
+
+.mcap{
+    position:absolute;
+    font-size:16px;
+    top:56%;
+    color:#B2B2B2;
+    left:37%;
+    z-index: 2;
+}
+
+.ratio{
+    position:absolute;
+    font-size:16px;
+    top:59%;
+    color:#B2B2B2;
+    left:37%;
+    z-index: 2;
+}
+
+.lowVal{
+    position:absolute;
+    font-size:16px;
+    top:56%;
+    color:black;
+    left:33.5%;
+    z-index: 2;
+}
+
+.highVal{
+    position:absolute;
+    font-size:16px;
+    top:59%;
+    color:black;
+    left:33.5%;
+    z-index: 2;
+}
+
+.openVal{
+    position:absolute;
+    font-size:16px;
+    top:62%;
+    color:black;
+    left:33.8%;
+    z-index: 2;
+}
+
+.mcapVal{
+    position:absolute;
+    font-size:16px;
+    top:56%;
+    color:black;
+    left:42.2%;
+    z-index: 2;
+}
+
+.ratioVal{
+    position:absolute;
+    font-size:16px;
+    top:59%;
+    color:black;
+    left:39.5%;
+    z-index: 2;
+}

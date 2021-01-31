@@ -10,6 +10,37 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:black;
   border:1px solid black;
+  @media (max-width:1024px){
+    width:700px;
+    margin-left:-200px;
+  }
+  @media (max-width:768px){
+    width:500px;
+    margin-left:-140px;
+  }
+  @media (max-width: 600px) {
+    width:330px;
+    margin-left:-118px;
+  }
+//   color:white;
+}
+
+.textFieldFail {
+  display: block;
+  margin-top: 15px;
+  height: 6vh;
+  width: 21vw;
+  border-radius: 30px;
+  margin-left: 2vw;
+//   background: white;
+  opacity: 20%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  border:3px solid red;
+  @media (max-width: 600px) {
+    width:330px;
+    margin-left:-118px;
+  }
 //   color:white;
 }
 
@@ -24,7 +55,7 @@
   margin: auto;
   width: 25vw;
   @media (max-width: 600px) {
-    background-color: red;
+    width:50vw;
   }
 }
 
@@ -40,6 +71,12 @@ body{
     background-color: #F96331;
     height:40px;
     width:100%;
+    @media (max-width: 600px) {
+      width:100%;
+    }
+    @media (max-width: 320px){
+      width:340px;
+    }
 }
 
 span{
@@ -58,4 +95,16 @@ button{
     border:2px solid #DAC9C5;
     color:#FFF9EE;
     background: rgba(0,0,0,0.1); 
+    @media (max-width:1024px){
+      width:700px;
+      margin-left:-200px;
+    }
+    @media (max-width:768px){
+      width:500px;
+      margin-left:-140px;
+    }
+    @media (max-width: 600px) {
+      width:330px;
+      margin-left:-118px;
+    }
 }
